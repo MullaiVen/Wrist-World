@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { products } from "../data";
+import ProductCard from "../components/ProductCard.astro";
+import { previousHref, previousText, tutorialHref, tutorialText, githubText, githubHref } from "../config";
+---
+
+<Layout title="Shop">
+  <div>
+    <h1 class="text-5xl font-bold mb-4">Wrist World</h1>
+    <h3 class="text-xl text-gray-500 mb-8">
+      An example shop using View Transitions with Astro.
+    </h3>
+    <nav class="pb-10">
+      <a href={githubHref} class="text-gray-400 hover:underline hover:text-gray-950" target="_blank">{githubText}</a>
+    </nav>
+  </div>
+  
+  <div class="flex flex-wrap gap-4 py-8">
+    {products.map((product) => <ProductCard {product} />)}
+  </div>
+</Layout>
