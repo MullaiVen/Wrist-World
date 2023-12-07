@@ -1,6 +1,7 @@
 # Wrist-World
 ## Watch selling website
-An example shop using View Transitions with Astro.
+An demo of watch shop using View Transitions with Astro.
+This isn't my own project, I Revamped it and learnt few things on the progress.
 
 ## Page-1
 > List of watches.
