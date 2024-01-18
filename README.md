@@ -1,4 +1,4 @@
-# Wrist-World
+# Wrist-World (Revamp)
 ## Watch selling website
 An demo of watch shop using View Transitions with Astro.
 This isn't my own project, I Revamped it and learnt few things on the progress.
